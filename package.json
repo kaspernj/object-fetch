@@ -1,5 +1,5 @@
 {
-  "name": "object-digger",
+  "name": "@kaspernj/object-digger",
   "version": "1.0.0",
   "description": "Fetch keys for object with a default or fail",
   "main": "index.js",
