@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/kaspernj/object-fetch/issues"
   },
-  "homepage": "https://github.com/kaspernj/object-fetch#readme"
+  "homepage": "https://github.com/kaspernj/object-fetch#readme",
+  "devDependencies": {
+    "jest": "^25.2.7"
+  },
+  "scripts": {
+    "test": "jest"
+  }
 }
