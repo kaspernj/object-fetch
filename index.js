@@ -31,4 +31,18 @@ const digg = function dig(target, ...keys) {
   return digger(target, keys, true)
 }
 
-module.exports = {dig, digg}
+const digs = function digs(target, ...keys) {
+  const result = {}
+
+  for(let key of keys) {
+    if (!(key in target)) {
+      throw new Error(`Target didn't contain expected key: ${key}`)
+    }
+
+    result[key] = target[key]
+  }
+
+  return result
+}
+
+module.exports = {dig, digg, digs}
