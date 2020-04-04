@@ -1,5 +1,5 @@
 {
-  "name": "object-digger",
+  "name": "@kaspernj/object-fetch",
   "version": "1.0.0",
   "description": "Fetch keys for object with a default or fail",
   "main": "index.js",
@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/kaspernj/object-digger.git"
+    "url": "git+ssh://git@github.com/kaspernj/object-fetch.git"
   },
   "author": "kaspernj",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kaspernj/object-digger/issues"
+    "url": "https://github.com/kaspernj/object-fetch/issues"
   },
-  "homepage": "https://github.com/kaspernj/object-digger#readme"
+  "homepage": "https://github.com/kaspernj/object-fetch#readme"
 }
