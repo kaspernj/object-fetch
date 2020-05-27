@@ -34,7 +34,6 @@ const myObject = {
     }
   ]
 }
-```
 
 digg(myObject, "people", 0, "firstName") //=> "Kasper"
 digg(myObject, "people", 1, "firstName") //=> Fails because 1 isn't found in the people array
