@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/kaspernj/object-fetch#readme",
   "devDependencies": {
-    "jest": "^25.2.7"
+    "jest": "^26.5.3"
   },
   "scripts": {
     "test": "jest"
