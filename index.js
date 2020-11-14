@@ -16,8 +16,6 @@ function digger(target, keys, throwError) {
     } else {
       digged = digged[key]
     }
-
-    currentPath.pop()
   }
 
   return digged
