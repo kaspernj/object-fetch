@@ -5,14 +5,14 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/kaspernj/object-digger.git"
+    "url": "git+ssh://git@github.com/kaspernj/diggerize.git"
   },
   "author": "kaspernj",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kaspernj/object-digger/issues"
+    "url": "https://github.com/kaspernj/diggerize/issues"
   },
-  "homepage": "https://github.com/kaspernj/object-digger#readme",
+  "homepage": "https://github.com/kaspernj/diggerize#readme",
   "devDependencies": {
     "jasmine": "^3.6.3"
   },
