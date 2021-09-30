@@ -1,5 +1,5 @@
 {
-  "name": "object-digger",
+  "name": "diggerize",
   "version": "1.0.2",
   "description": "Fetch keys for object with a default or fail",
   "main": "index.js",
