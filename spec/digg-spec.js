@@ -7,7 +7,8 @@ const hash = {
       lastName: "Johansen",
       siblings: [
         {firstName: "Charlotte", lastName: "Johansen"}
-      ]
+      ],
+      calculatedAge: () => 25
     },
     {firstName: "Christina", lastName: "Stöckel"}
   ]
@@ -25,5 +26,11 @@ describe("digg", () => {
 
   it("raises an error if a nested path cannot be found", () => {
     expect(() => digg(hash, "people", 0, "siblings", 0, "middleName")).toThrow(new Error("Path didn't exist: people.0.siblings.0.middleName"))
+  })
+
+  it("doesnt call through functions", () => {
+    const result = digg(hash, "people", 0, "calculatedAge")
+
+    expect(typeof result).toBe("function")
   })
 })
