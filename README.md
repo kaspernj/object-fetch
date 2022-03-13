@@ -1,6 +1,16 @@
-# object-digger
+# diggerize
 
 ## Usage
+
+### Import the functions
+
+```js
+const {dig, digg, digs} = require("diggerize")
+```
+
+```js
+import {dig, digg, digs} from "diggerize"
+```
 
 ### dig
 
