@@ -1,4 +1,5 @@
-const {digs} = require("../index")
+import {digs} from "../index.mjs"
+
 const hash = {firstName: "Kasper", lastName: "Johansen"}
 
 describe("digs", () => {

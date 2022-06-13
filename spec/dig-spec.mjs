@@ -1,4 +1,4 @@
-const {dig} = require("../index")
+import {dig} from "../index.mjs"
 
 const hash = {
   people: [
