@@ -43,4 +43,4 @@ const digs = function digs(target, ...keys) {
   return result
 }
 
-module.exports = {dig, digg, digger, digs}
+export {dig, digg, digger, digs}

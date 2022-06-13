@@ -1,4 +1,4 @@
-const {digger} = require("../index")
+import {digger} from "../index.mjs"
 
 const hash = {
   people: [
